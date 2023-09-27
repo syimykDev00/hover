@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    padding: 30px 60px;
+    background: red;
+    color: yellow;
+    border: blue 5px solid;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.btns {
+    padding-top: 100px;
+}
+
+.btn:hover {
+    background: orange;
+    color: white;
+    border: cyan 5px solid;
+}
+
+.btn2 {
+    padding: 30px 60px;
+    background: black;
+    color: white;
+    border: green 5px dashed;
+}
+
+.btn2:focus {
+    background: transparent;
+    color: lawngreen;
+    border: deeppink 5px solid;
+}
+
+.btn3 {
+    padding: 30px 60px;
+    background: yellow;
+    color: blue;
+    border: aqua 4px solid;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn3:active {
+    background: pink;
+    color: seagreen;
+    border: cornflowerblue 4px solid;
+}
+
+.block {
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 3px 13px black;
+    transition: .4s;
+    cursor: pointer;
+    position: relative;
+}
+
+.block:hover {
+    margin-left: 20px;
+}
+
+.block:before {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 3px 13px black;
+    transition: .4s;
+    cursor: pointer;
+    left: 200px;
+}
+
+.block:after {
+    position: absolute;
+    content: "";
+    width: 140px;
+    height: 140px;
+    box-shadow: 0 3px 13px black;
+    transition: .4s;
+    cursor: pointer;
+    left: 100px;
+    top: 200px;
+}
